@@ -4,6 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
+![My photo]({{ site.url }}/assets/self_photo.png)
 Hi, my name is Teng Yung Lin. I'm a web developer and designer living in Taipei, Taiwain.
 
 I don't like to limit myself to developing with particular tools or programming languages, but
