@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to AndyNo.10 Blog"
 date:   2016-02-04 14:58:08 +0800
-categories: general update
+categories: general
 ---
 Hello, I'm Teng Yung Lin. I'm a web developer and designer living in Taipei, Taiwain.
 
