@@ -8,7 +8,7 @@
 # Site settings
 title: AndyNo.10
 email: andyNumber10@gmail.com
-description: This is a simple blog to share my ideas and concepts.
+description: This is a simple blog to share my ideas, concepts and my learning path.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://andyNo10.github.io" # the base hostname & protocol for your site
 timezone: "Asia/Taipei"

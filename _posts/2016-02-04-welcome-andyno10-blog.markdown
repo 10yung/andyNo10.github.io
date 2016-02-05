@@ -12,7 +12,7 @@ how to write clean code. This means to consider communication and collaborator. 
 This means Agile, Scrum...
 
 This blog is built by Jekyll. A RoR blog that transform your plain text into static websites and blogs.
-I'd love to use this simple blog to share my ideas and concepts about coding stuffs.
+I'd love to use this simple blog to share my ideas, concepts about coding stuffs and show my learning path.
 
 Hope you guys will love my posts.
 
