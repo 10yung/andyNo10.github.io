@@ -11,6 +11,7 @@ email: andyNumber10@gmail.com
 description: This is a simple blog to share my ideas and concepts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://andyNo10.github.io" # the base hostname & protocol for your site
+timezone: "Asia/Taipei"
 
 twitter_username: 10Andyno
 github_username:  andyNo10
