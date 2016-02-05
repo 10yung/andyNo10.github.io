@@ -68,7 +68,7 @@ Here is what Node do for you.
 
 5. return module.exports object to a variable
 
-This is how Node ( v8 engine ) done for you, so you can use javascript function easily  and conveniently without worrying about the name and scope.
+This is how Node ( v8 engine ) do for you, so you can use javascript function easily  and conveniently without worrying about the name and scope.
 
 ---
 
