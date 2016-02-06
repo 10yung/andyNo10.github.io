@@ -11,8 +11,8 @@ permalink: /about/
 Hi, my name is Teng Yung Lin. I'm a web developer and designer living in Taipei, Taiwan.
 
 I don't like to limit myself to developing with particular tools or programming languages, but
-I'm most experienced with PHP, Javascript, and CSS. I also devoted myself to co-working skills and
-how to write clean code. This means to consider communication and collaborator. This means team-first.
+I'm most experienced with PHP, Javascript, and CSS. I also devoted myself to cooperation skills and
+methods. This means to consider communication and co-work. This means team-first.
 This means Agile, Scrum...
 
 I love to get things down and find solutions so as to achieve goals. I enjoy experiment with new
