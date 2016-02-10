@@ -96,3 +96,12 @@ myRevealingModule.setName( "AndyNo.10" );
 
 We can use the pattern to make the syntax of our scripts to be more consistent.
 It also makes it more clear at the end of the module which of our functions and variables may be accessed publicly which eases readability.
+
+------
+
+Find more about Revealing Module Pattern on O'reilly online book
+
+[Essential JS Design Patterns][Essential-JS-Design-Patterns]
+
+
+[Essential-JS-Design-Patterns]:https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript
