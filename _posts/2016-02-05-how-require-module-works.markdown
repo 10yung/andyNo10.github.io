@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Node.js - how require and module.exports work"
+title:  "How require and module.exports work"
 date:   2016-02-05 17:10:00 +0800
-categories: Node.js
+categories: node-js
 ---
 Node let us use functions in different javascript file. It's very convenient to reuse code and build scalable applications.
 Here is a simple example.
