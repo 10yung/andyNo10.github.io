@@ -21,9 +21,9 @@ console.log(andy.firstName + ", " + andy.lastName); // Teng Yung, Lin
 
 {% endhighlight %}
 
-######the **new** keyword is to create new empty object and call the contructor function (in this case : function Person() )
+###### the **new** keyword is to create new empty object and call the contructor function (in this case : function Person() )
 
-######"constructor" in JavaScript is "just" a function that happens to be called with the new keyword.
+###### "constructor" in JavaScript is "just" a function that happens to be called with the new keyword.
 
 In this case, I just add lastName property to my Person prototype and I can access lastName property after new Person.
 It's just like kind of inheritance feature that javascript give me.
@@ -59,7 +59,7 @@ after I set lastName property to Object, javascript won't search for prototype, 
 
 You can chain lots of prototypes together, but there may have performance problems cause javascript engine has to trace and find property through your prototype chain.
 
-Prototype Chain is a good way to implement inheritance feature. You can find more on MDN 
+Prototype Chain is a good way to implement inheritance feature. You can find more on MDN
 [Inheritance and the prototype chain][Inheritance and the prototype chain]
 
 
