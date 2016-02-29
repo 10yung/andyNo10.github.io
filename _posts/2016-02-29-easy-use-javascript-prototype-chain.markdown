@@ -21,9 +21,9 @@ console.log(andy.firstName + ", " + andy.lastName); // Teng Yung, Lin
 
 {% endhighlight %}
 
-###### the **new** keyword is to create new empty object and call the contructor function (in this case : function Person() )
+* the **new** keyword is to create new empty object and call the contructor function (in this case : function Person() )
 
-###### "constructor" in JavaScript is "just" a function that happens to be called with the new keyword.
+* "constructor" in JavaScript is "just" a function that happens to be called with the new keyword.
 
 In this case, I just add lastName property to my Person prototype and I can access lastName property after new Person.
 It's just like kind of inheritance feature that javascript give me.
