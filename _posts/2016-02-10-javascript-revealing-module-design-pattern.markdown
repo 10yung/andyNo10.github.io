@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Javascript - the Revealing Module Design Pattern"
-
 date:   2016-02-10 17:00:00 +0800
 categories: node-js
 ---
