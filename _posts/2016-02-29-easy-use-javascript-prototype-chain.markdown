@@ -4,9 +4,9 @@ title:  "Javascript - easy use javascript prototype chain"
 date:   2016-02-29 12:15:00 +0800
 categories: javascript
 ---
-What javascript prototype can do for me is the feature of object inheritance.
+Javascript prototype has the feature of object inheritance.
 Prototype allows me to add new properties to an existing prototype.
-Here is a simple example to add new properties to existing prototype through prototype.
+Here is a simple example that add new properties to existing prototype through prototype.
 
 
 {% highlight javascript %}
@@ -25,13 +25,13 @@ console.log(andy.firstName + ", " + andy.lastName); // Teng Yung, Lin
 
 ###### "constructor" in JavaScript is "just" a function that happens to be called with the new keyword.
 
-In this case, I just add lastName property to my Person prototype and I can access lastName property after new Person.
-It's just like kind of inheritance feature that javascript give me.
+In this case, I just add ``lastName`` property to my ``Person`` prototype and I can access ``lastName`` property after ``new Person``.
+It's just kind of inheritance feature that javascript give me.
 
-When you call Object's property. Javascript first look into the Object's own properties, if the Object properties
-don't have such property it look for the Object's prototype.
+When you call Object's property. Javascript first look into the Object's own properties. If the Object properties
+don't have such property it will look for the Object's prototype.
 
-The following is another simple example
+The following is another example
 {% highlight javascript %}
 function Person(firstName){
     this.firstName = firstName;
@@ -51,7 +51,7 @@ console.log(Person.prototype); //Person { lastName: 'Lin' }
 console.log(andy.firstName + ", " + andy.lastName); //Teng Yung, andyNo.10
 {% endhighlight %}
 
-First javascript search for object own property **lastName**, and it cannot be found, so it continue to search object prototype, and then lastName is **Person.property.lastName -> Lin**
+First javascript search for object's property **lastName**, and it cannot be found, so javascript continue to search object's prototype, and then ``lastName`` is **Person.property.lastName -> Lin**
 
 after I set lastName property to Object, javascript won't search for prototype, cause the Object has it't own property called lastName.
 
