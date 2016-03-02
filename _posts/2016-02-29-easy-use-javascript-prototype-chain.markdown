@@ -4,7 +4,7 @@ title:  "Javascript - easy use javascript prototype chain"
 date:   2016-02-29 12:15:00 +0800
 categories: javascript
 ---
-Javascript prototype has the feature of object inheritance.
+Javascript prototype has the feature of object inheritance!
 Prototype allows me to add new properties to an existing prototype.
 Here is a simple example that add new properties to existing prototype through prototype.
 
