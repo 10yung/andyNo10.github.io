@@ -82,8 +82,7 @@ Result
 
 ![Promise Sample Code]({{ site.url }}/assets/Promise_samplecode.png)
 
-Step3 and Step4 show up together.
-As we can see that ``.then()`` will get previous resolve value and just execute the code top to down(won't wait async code finish). So we should always wrap async code in **Promise** section.
+Step3 and Step4 show up together we can see that ``.then()`` will get previous resolve value and just execute the code top to down(won't wait async code finish). So we should always wrap async code in **Promise** section.
 
 
 
