@@ -55,8 +55,8 @@ var p2 = p.then(function(val){
     return new Promise(function (resolve) {
         window.setTimeout(function(){
                 console.log('step2 : Wait for 4 second');
-                resolve('1000')
-            },val)
+                resolve('2000')
+            },val) //val = 4000
         });
     }
 )
@@ -64,8 +64,8 @@ var p2 = p.then(function(val){
 //step3 : Wait for 1 second and log the the messege
 p2.then(function(val){
     window.setTimeout(function(){
-            console.log('step3 : Wait for 1 second');
-        },val);
+            console.log('step3 : Wait for 2 second');
+        },val); //val = 2000
     }
 );
 
