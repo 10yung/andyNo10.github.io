@@ -11,7 +11,7 @@ permalink: /project/
         line-height: 1;
     }
     h5, h3 {
-        margin-bottom: 13px;
+        margin-bottom: 8px;
     }
 </style>
 
