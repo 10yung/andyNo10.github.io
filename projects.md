@@ -5,7 +5,7 @@ permalink: /project/
 ---
 <style>
     li {
-        line-height: 0.9;
+        line-height: 1;
     }
     h5 {
         margin-bottom: 13px;
