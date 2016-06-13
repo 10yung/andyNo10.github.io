@@ -4,10 +4,13 @@ title: Projects
 permalink: /project/
 ---
 <style>
+    ul {
+        margin-bottom: 25px;
+    }
     li {
         line-height: 1;
     }
-    h5 {
+    h5, h3 {
         margin-bottom: 13px;
     }
 </style>
