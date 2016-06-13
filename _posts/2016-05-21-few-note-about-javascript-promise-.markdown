@@ -6,7 +6,7 @@ categories: javascript
 ---
 Javascript itself has  synchronous features, the javascript engine trigger each line of code form top to down. But when we need request to call some data from the Internet (We call this behavior "Ajax"). Things go different, because javascript engine won't automatically  wait for data coming back (It just execute next line of code). This condition make javascript asynchronous. Sometimes we have to "make" javascript wait for the data and **then** do the next step (maybe process coming back data). SO javascript engine provide us a **Standard Object - "Promise"**, and let us be more controllable to the javascript async process.
 
-###**Some Concept**###
+### **Some Concept** ###
 
 Promise is kind of wrapper, at least you can see it as a box that hold your code inside it. It's a little bit like
 ``try{...} catch{..}`` （once the "try" throw some event out, "catch" will present it).
@@ -33,7 +33,7 @@ We can see promise process flow below.
 
 As the picture, We can use ``.then()`` to control our process. So lets see some example.
 
-###**Some Code**###
+### **Some Code** ###
 
 One key concept to write async code is that you must wrap your async code in ``Promise`` section. There are lots of sample code on **[MDN Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)** (Mozila developer network) . After you go through MDN Promise description, you can see how to chain async code together as below. In MDN ``.then()`` method take previous promise resolved value and can be chained (see more on [MDN  then function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then)). So it is useful to use .then() after the promise is resolve.
 
