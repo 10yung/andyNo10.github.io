@@ -7,6 +7,9 @@ permalink: /project/
     li {
         line-height: 0.9;
     }
+    h5 {
+        margin-bottom: 13px;
+    }
 </style>
 
 # Websites #
