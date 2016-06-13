@@ -11,63 +11,63 @@ permalink: /project/
 
 # Websites #
 
-###[Full-Stack-Artisan](http://full-stack-artisan.com/zh/)
+### [Full-Stack-Artisan](http://full-stack-artisan.com/zh/)
 
-* #####Description: My teams Websites. Things about out-sourcing
+* ##### Description: My teams Websites. Things about out-sourcing
 
-* #####Role: Leader, Website Developer
+* ##### Role: Leader, Website Developer
 
-* #####Responsibility: Web Design, Building Website.
+* ##### Responsibility: Web Design, Building Website.
 
 
-###[Matter-Lab](https://www.matter-lab.com/)
+### [Matter-Lab](https://www.matter-lab.com/)
 
-* #####Description: Matter-Lab E-commence Websites
+* ##### Description: Matter-Lab E-commence Websites
 
-* #####Role: Website Manager
+* ##### Role: Website Manager
 
-* #####Responsibility: Demand Analysis, E-commence Website Consulting
+* ##### Responsibility: Demand Analysis, E-commence Website Consulting
 
-###[Spree](http://www.spreelive.com/)
+### [Spree](http://www.spreelive.com/)
 
-* #####Description: Spree Brand Image Website
+* ##### Description: Spree Brand Image Website
 
-* #####Role: Website Developer
+* ##### Role: Website Developer
 
-* #####Responsibility: Website development
+* ##### Responsibility: Website development
 
-###[Ohyan Law Group](http://ohyanlaw.cp33.secserverpros.com/)
+### [Ohyan Law Group](http://ohyanlaw.cp33.secserverpros.com/)
 
-* #####Description: American Law Office Brand Image Website
+* ##### Description: American Law Office Brand Image Website
 
-* #####Role: Website Developer
+* ##### Role: Website Developer
 
-* #####Responsibility: Website development
+* ##### Responsibility: Website development
 
-###[PHPConference-TW](#)
+### [PHPConference-TW](#)
 
-* #####Description: PHPConference Taiwain Website
+* ##### Description: PHPConference Taiwain Website
 
-* #####Role: Website Developer
+* ##### Role: Website Developer
 
-* #####Responsibility: Website development
+* ##### Responsibility: Website development
 
-###[Biblioteca Budista Library](http://www.bibliotecabudista.org/)
+### [Biblioteca Budista Library](http://www.bibliotecabudista.org/)
 
-* #####Description: Argentina buddhist library Website
+* ##### Description: Argentina buddhist library Website
 
-* #####Role: Website Developer
+* ##### Role: Website Developer
 
-* #####Responsibility: Website development
+* ##### Responsibility: Website development
 
 ------
 
-#Side-Projects
+# Side-Projects
 
-###[JQuery todolist](http://andyno10.github.io/basic_todolist/)
+### [JQuery todolist](http://andyno10.github.io/basic_todolist/)
 
-* #####Description: Basic jQuery todolist
+* ##### Description: Basic jQuery todolist
 
-###[Laravel Boilerplate](https://github.com/andyNo10/laravel_boilerplate)
+### [Laravel Boilerplate](https://github.com/andyNo10/laravel_boilerplate)
 
-* #####Description: Default laravel project with bootstrap material
+* ##### Description: Default laravel project with bootstrap material
