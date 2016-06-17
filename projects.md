@@ -17,7 +17,7 @@ permalink: /project/
 
 # Websites #
 
-### [Full-Stack-Artisan](http://full-stack-artisan.com/zh/)
+### [Full-Stack-Artisan](http://full-stack-artisan.com)
 
 * ##### Description: My teams Websites. Things about out-sourcing
 
