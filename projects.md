@@ -74,6 +74,10 @@ permalink: /project/
 
 * ##### Description: Basic jQuery todolist
 
+### [Grix](http://andyno10.github.io/Grix/)
+
+* ##### Description: Easy to use Flex property Grid system.
+
 ### [Laravel Boilerplate](https://github.com/andyNo10/laravel_boilerplate)
 
 * ##### Description: Default laravel project with bootstrap material
