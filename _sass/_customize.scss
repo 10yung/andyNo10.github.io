@@ -1,0 +1,18 @@
+// customize footer area 
+.site-footer {
+    background-color: #2a2730;
+    margin-top: 100px;
+    padding: 50px 0px;
+    font-size: $small-font-size;
+    color: #9d9d9d;
+
+    a {
+        color: #fff;
+
+        &:hover{
+            text-decoration: none;
+            color: #fbd0cf;
+            transition: color 0.3s;
+        }
+    }
+}
