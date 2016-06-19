@@ -47,6 +47,24 @@ $on-laptop:        800px;
     }
 }
 
+// responsive font size
+@media screen and (max-width: 768px) {
+  p,.btn,input,div,span,h4 {
+    font-size: $base-font-size * 0.9;
+  }
+  h1 {
+    font-size: $base-font-size * 0.9;
+  }
+  h2 {
+    font-size: $base-font-size * 0.9;
+  }
+  h3 {
+    font-size: $base-font-size * 0.9;
+  }
+}
+
+
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
