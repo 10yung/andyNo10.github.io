@@ -8,7 +8,7 @@
 # Site settings
 title: AndyNo.10
 email: andyNumber10@gmail.com
-description: This is a simple blog to share my ideas, concepts and my learning path.
+description: This is a Blog to share my Ideas, Concepts and what I have Learned.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://andyNo10.github.io" # the base hostname & protocol for your site
 timezone: "Asia/Taipei"
@@ -23,7 +23,7 @@ markdown: kramdown
 
 #pagination
 gems: [jekyll-paginate]
-paginate: 10
+paginate: 5
 paginate_path: "page:num"
 
 #disqus name

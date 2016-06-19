@@ -2,6 +2,7 @@
 .navbar-custom {
     border-radius: 0;
     background-color: #2a2730;
+    margin-bottom: 0px;
 
     li {
         a {
@@ -21,6 +22,82 @@
     transition: background-color 0.3s;
 }
 
+// customize content area
+.content-header{
+    padding-top: 37.5px;
+    padding-bottom: 20px;
+    background-color: #e9eaec;
+    margin: 0px -15px 15px -15px;
+}
+.home-content-header{
+    padding-top: 37.5px;
+    padding-bottom: 20px;
+    background-color: #e9eaec;
+    margin: 0px -15px 15px -15px;
+}
+
+.ctm-panel {
+    padding: 20px 30px;
+    border-radius: 0px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+}
+
+.post-date{
+    font-size: $small-font-size;
+    color: rgba(0,0,0,.44);
+}
+
+.post-title > a{
+    font-weight: bold;
+}
+.post-title > a, .post-content > a{
+    color: #2a2730;
+
+    &:hover {
+        color: rgba(0,0,0,.44);
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+}
+
+.ctm-lable {
+    font-size: $small-font-size;
+    color: #2a2730;
+    background: #fff;
+
+}
+
+.ctm-lable > a {
+    color: rgba(0,0,0,.44);
+
+    &:hover {
+        text-decoration: none;
+        color: #f4645f;
+        transition: color 0.5s;
+    }
+}
+.pager li > a {
+    border-radius: 35px;
+    background-color: none;
+    color: #9d9d9d;
+
+    &:hover {
+        background-color: #f4645f;
+        color: #fff;
+        transition: color 0.3s,
+                    background-color 0.3s;
+    }
+}
+.pager .previous > a, .pager .previous > span {
+    float: right;
+}
+.pager .next > a, .pager .next > span{
+    float: left;
+}
+.pager > .active > a{
+    color: #f4645f;
+    border-color: #f4645f;
+}
 
 // customize footer area
 .site-footer {

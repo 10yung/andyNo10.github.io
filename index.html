@@ -1,46 +1,64 @@
 ---
 layout: default
 ---
-
-<div>
-  <h1>Blog</h1>
-
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<div class="home-content-header">
+    <div class="container">
+        <h2 style="font-family: 'Raleway', sans-serif; word-spacing:10px;">
+            {{ site.description }}
         </h2>
-      </li>
+    </div>
+</div>
+
+<div class="container">
+    {% for post in paginator.posts %}
+        <div class="panel panel-default ctm-panel">
+                <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+                    <h2 class="post-title">
+                        <a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
+                    <p class="post-content">
+                        {{ post.content | strip_html | truncatewords:25}}
+                    </p>
+                    <span class="label label-default ctm-lable">
+                        <a href="{{ post.url | prepend: site.baseurl }}"> Readmore </a>
+                    </span>
+        </div>
     {% endfor %}
-  </ul>
-</div>
 
-<!-- Pagination links -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-arrow-circle-left"></i> </a>
-  {% else %}
-    <span><i class="fa fa-arrow-circle-left"></i> </span>
-  {% endif %}
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+<div class="text-center">
+    <nav>
+    <!-- Pagination links -->
+    {% if paginator.total_pages > 1 %}
+        <ul class="pager">
+        {% if paginator.next_page %}
+            <li class="previous"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+        {% else %}
+            <li class="previous disabled"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Oldest</a></li>
+        {% endif %}
+
+
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+            <li class="active"><a>{{ page }}</a></li>
+          {% elsif page == 1 %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+          {% else %}
+            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: 'page', '/page' | replace: ':num', page }}">{{ page }}</a></li>
+          {% endif %}
+        {% endfor %}
+
+        {% if paginator.previous_page %}
+        <li class="next"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Newer</a></li>
+        {% else %}
+        <li class="next disabled"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Lastest</a></li>
+        {% endif %}
+
+
+
+        </ul>
     {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> <i class="fa fa-arrow-circle-right"></i></a>
-  {% else %}
-    <span> <i class="fa fa-arrow-circle-right"></i></span>
-  {% endif %}
+    </nav>
 </div>
-{% endif %}
+
+</div>
