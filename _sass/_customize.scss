@@ -1,4 +1,28 @@
-// customize footer area 
+// navbar custom
+.navbar-custom {
+    border-radius: 0;
+    background-color: #2a2730;
+
+    li {
+        a {
+            transition: color 0.3s;
+        }
+    }
+
+    .navbar-brand {
+        transition: color 0.3s;
+    }
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-brand:hover{
+    color: #fbd0cf;
+}
+.navbar-inverse .navbar-toggle:hover {
+    transition: background-color 0.3s;
+}
+
+
+// customize footer area
 .site-footer {
     background-color: #2a2730;
     margin-top: 100px;
