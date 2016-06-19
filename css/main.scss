@@ -50,16 +50,16 @@ $on-laptop:        800px;
 // responsive font size
 @media screen and (max-width: 768px) {
   p,.btn,input,div,span,h4 {
-    font-size: $base-font-size * 0.9;
+    font-size: $base-font-size * 0.8;
   }
   h1 {
-    font-size: $base-font-size * 0.9;
+    font-size: $base-font-size * 0.95;
   }
   h2 {
     font-size: $base-font-size * 0.9;
   }
   h3 {
-    font-size: $base-font-size * 0.9;
+    font-size: $base-font-size * 0.85;
   }
 }
 
