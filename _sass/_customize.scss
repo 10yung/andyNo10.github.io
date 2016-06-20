@@ -135,6 +135,13 @@
     color: #f4645f;
     font-size: 55px;
 }
+
+@media screen and (max-width: 768px) {
+    .full-stack-artisan {
+        font-size: 43px;
+    }
+}
+
 .github-icon {
     color: #9C27B0;
 }
