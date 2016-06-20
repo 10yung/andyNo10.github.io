@@ -16,6 +16,41 @@
     <!--Import jQuery before materialize.js-->
      <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
      <script type="text/javascript" src="../js/bootstrap/bootstrap.min.js"></script>
+     <script src="{{ "/js/jQCloud/jqcloud.min.js" | prepend: site.baseurl }}"></script>
+     <script type="text/javascript">
+        var words = [
+          {text: "Javascript", weight: 13},
+          {text: "Css", weight: 10.5},
+          {text: "Management", weight: 10.5},
+          {text: "PHP", weight: 10},
+          {text: "Wordpress", weight: 10},
+          {text: "Project Management", weight: 10},
+          {text: "HTML", weight: 10},
+          {text: "System Analysis", weight: 10},
+          {text: "Web Application", weight: 9.4},
+          {text: "Web Design", weight: 9},
+          {text: "Node.js", weight: 9},
+          {text: "Ubuntu", weight: 8},
+          {text: "Laravel", weight: 8},
+          {text: "SEO", weight: 7},
+          {text: "AWS EC2", weight: 6.2},
+          {text: "Lambda", weight: 6.2},
+          {text: "Web Analysis", weight: 6.2},
+          {text: "Magento", weight: 6.2},
+          {text: "Vue.js", weight: 5},
+          {text: "React.js", weight: 5},
+          /* ... */
+        ];
+
+         $('#skill-cloud').jQCloud(words, {
+             colors: ["#F4645F", "#FF8763", "#FF8E8E", "#F4AE7C", "#fd8d3c", "#F4C995", "#FFA88E", "#FFB68E", "#F4645F"],
+             height: 500,
+             autoResize: true,
+             delay: 60
+         });
+
+
+     </script>
   </body>
 
 </html>

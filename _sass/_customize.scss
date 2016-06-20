@@ -99,6 +99,65 @@
     border-color: #f4645f;
 }
 
+// about me page
+.about-me, .skill{
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    margin-bottom: 20px;
+
+    .img-thumbnail {
+        border-radius: 0px;
+    }
+    img {
+        margin-bottom:20px;
+    }
+    div {
+        font-family: 'Raleway', sans-serif;
+        word-spacing:8px;
+    }
+    .intro {
+        margin-top: 4%;
+    }
+}
+
+.social-icon > div > a {
+    padding: 15px 15px;
+}
+
+.social-icon > div{
+    border-top: 1px solid rgba(0,0,0,.05);
+    border-bottom:  1px solid rgba(0,0,0,.05);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.full-stack-artisan {
+    color: #f4645f;
+    font-size: 55px;
+}
+.github-icon {
+    color: #9C27B0;
+}
+.linkedin-icon {
+    color: #2196F3;
+}
+.facebook-icon {
+    color: #3F51B5;
+}
+
+.linkedin-icon, .facebook-icon, .github-icon, .full-stack-artisan {
+    text-shadow: 2px 2px 3px #bcbcbc;
+
+    &:hover {
+        text-shadow: none;
+        transition: text-shadow 0.5s;
+    }
+}
+
+#skill-cloud {
+    width: 100%;
+}
+
 // customize footer area
 .site-footer {
     background-color: #2a2730;
