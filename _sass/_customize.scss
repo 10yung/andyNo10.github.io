@@ -178,6 +178,27 @@
         transition: box-shadow 0.3s;
     }
 }
+.works-title, .works-description, .skills-label {
+    color: #111;
+    padding-top: 10px;
+}
+
+.works-title, .skills-label {
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid rgba(0,0,0, .04);
+}
+.skills-label {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.skill-label {
+    font-size: $base-font-size * 0.85;
+    padding: 2px 10px;
+    border: 1px solid #9d9d9d;
+    border-radius: 35px;
+}
+
 
 
 
