@@ -165,6 +165,22 @@
     width: 100%;
 }
 
+
+//  project page
+.project-title {
+    font-family: 'Raleway', sans-serif;
+    word-spacing:8px;
+}
+
+.project-card{
+    &:hover {
+        box-shadow: 1px 2px 4px rgba(0,0,0,.2);;
+        transition: box-shadow 0.3s;
+    }
+}
+
+
+
 // customize footer area
 .site-footer {
     background-color: #2a2730;
