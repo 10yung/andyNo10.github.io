@@ -170,6 +170,8 @@
 .project-title {
     font-family: 'Raleway', sans-serif;
     word-spacing:8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .project-card{
@@ -186,6 +188,8 @@
 .works-title, .skills-label {
     font-family: 'Raleway', sans-serif;
     border-bottom: 1px solid rgba(0,0,0, .04);
+
+
 }
 .skills-label {
     padding-left: 15px;
@@ -199,8 +203,14 @@
     border-radius: 35px;
 }
 
-
-
+.side-project-title {
+    border-top: 1px solid rgba(0,0,0,.05);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.side-pro {
+    padding-top: 20px;
+}
 
 // customize footer area
 .site-footer {
