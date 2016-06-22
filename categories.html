@@ -1,0 +1,46 @@
+---
+layout: page
+title: Categories
+permalink: /allcategories/
+---
+<div class="row">
+    <div class="col-xs-12 col-sm-12">
+              <ul class="nav nav-tabs" role="tablist">
+                  {% assign categories = site.categories | sort %}
+                  {% for category in categories reversed %}
+                      {% if forloop.first == true %}
+                          <li role="presentation" class="active" ><a href="#{{ category | first | slugify }}" aria-controls="{{ category | first | slugify }}" role="tab" data-toggle="tab">{{ category[0] | replace:'-', ' ' }}</a></li>
+                      {% else %}
+                          <li role="presentation" ><a href="#{{ category | first | slugify }}" aria-controls="{{ category | first | slugify }}" role="tab" data-toggle="tab">{{ category[0] | replace:'-', ' ' }}</a></li>
+                      {% endif %}
+                  {% endfor %}
+              </ul>
+
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                {% for category in categories.{{ category | first | slugify }} %}
+                    {% if forloop.last == true %}
+                        <div role="tabpanel" class="tab-pane fade in active" id="{{ category[0] | replace:'-', ' ' }}">
+                            {% assign sorted_posts = site.posts | sort: 'title' %}
+                                {% for post in sorted_posts %}
+                                    {%if post.categories contains category[0]%}
+                                         <h3><a href="{{ site.url }}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }} </a></h3>
+                                    {%endif%}
+                                {% endfor %}
+                        </div>
+                    {% else %}
+                        <div role="tabpanel" class="tab-pane fade" id="{{ category[0] | replace:'-', ' ' }}">
+                            {% assign sorted_posts = site.posts | sort: 'title' %}
+                                {% for post in sorted_posts %}
+                                    {%if post.categories contains category[0]%}
+                                         <h3><a href="{{ site.url }}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }} </a></h3>
+                                    {%endif%}
+                                {% endfor %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+              </div>
+
+    </div>
+</div>
