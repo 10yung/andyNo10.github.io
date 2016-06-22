@@ -3,9 +3,9 @@ layout: page
 title: Categories
 permalink: /allcategories/
 ---
-<div class="row">
+<div class="row" style="min-height: calc(100vh - 427px);">
     <div class="col-xs-12 col-sm-12">
-              <ul class="nav nav-tabs" role="tablist">
+              <ul class="nav nav-pills ctm-tab" role="tablist">
                   {% assign categories = site.categories | sort %}
                   {% for category in categories reversed %}
                       {% if forloop.first == true %}
@@ -25,7 +25,15 @@ permalink: /allcategories/
                             {% assign sorted_posts = site.posts | sort: 'title' %}
                                 {% for post in sorted_posts %}
                                     {%if post.categories contains category[0]%}
-                                         <h3><a href="{{ site.url }}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }} </a></h3>
+                                    <div class="panel panel-default ctm-panel">
+                                            <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+                                                <h2 class="post-title">
+                                                    <a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                                                </h2>
+                                                <span class="label label-default ctm-lable">
+                                                    <a href="{{ post.url | prepend: site.baseurl }}"> Readmore </a>
+                                                </span>
+                                    </div>
                                     {%endif%}
                                 {% endfor %}
                         </div>
@@ -34,7 +42,15 @@ permalink: /allcategories/
                             {% assign sorted_posts = site.posts | sort: 'title' %}
                                 {% for post in sorted_posts %}
                                     {%if post.categories contains category[0]%}
-                                         <h3><a href="{{ site.url }}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }} </a></h3>
+                                    <div class="panel panel-default ctm-panel">
+                                            <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+                                                <h2 class="post-title">
+                                                    <a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                                                </h2>
+                                                <span class="label label-default ctm-lable">
+                                                    <a href="{{ post.url | prepend: site.baseurl }}"> Readmore </a>
+                                                </span>
+                                    </div>
                                     {%endif%}
                                 {% endfor %}
                         </div>

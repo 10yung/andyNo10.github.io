@@ -212,6 +212,40 @@
     padding-top: 20px;
 }
 
+
+.ctm-tab {
+    margin-left: 0px;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    li {
+        a {
+            border-radius: 0px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            padding: 3px 10px;
+            border-radius: 35px;
+            color: #2a2730;
+            border: 1px solid #ddd;
+
+            &:hover {
+                transition: background-color 0.3s;
+            }
+        }
+
+
+    }
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: rgba(0, 0, 0, .0);
+    color: #f4645f;
+    border-color: #f4645f;
+}
+
+
+
 // customize footer area
 .site-footer {
     background-color: #2a2730;
