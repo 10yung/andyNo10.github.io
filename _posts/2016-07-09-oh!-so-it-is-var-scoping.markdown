@@ -76,3 +76,6 @@ testBrace();
 We can access variable outside `if` statement event if there are braces wrapping `insideBrace`.
 
 In both example, I understand that **`var` keyword create variables which local to the enclosing function** not enclosing block (braces ).
+
+> Note :
+> ES6 have `let` keyword that create variables local to enclosing block (braces).
