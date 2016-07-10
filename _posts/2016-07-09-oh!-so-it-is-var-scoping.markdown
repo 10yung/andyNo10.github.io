@@ -7,42 +7,7 @@ categories: javascript
 javascript scoping is **lexical**. I can't totally understand that meaning until I read a book [Eloquent Javascript - nested scope](http://eloquentjavascript.net/03_functions.html#h_c/Ms2Ed/N0).
 
 I understand that each function has it's own scope. The following show some code.
-```javascript
 
-var parent = function(){
-    var result ='';
-
-    var child1 = function(length1){
-        var b = '_ ';
-        for (var i = 0; i < length1; i++) {
-            result += b;
-            //this will log i variable in for loop
-            console.log(i);
-        }
-    }
-
-    var child2 = function(length2){
-        var c = '0';
-        for(var j=0; j<=length2; j++){
-            result += c;
-        }
-    }
-
-    // You cannot access b variable in child1()
-    // console.log(b);
-    child1(2);
-    child2(3);
-    child1(4);
-    child2(6);
-
-    return result;
-}
-
-console.log(parent());
-
-// result : _ _ 0000_ _ _ _ 0000000
-
-```
 
 
 In this case we can see that `child1()` and `child2()` can access to `result` variable since they are inside `parent()` that define `result` variable.
