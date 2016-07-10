@@ -48,6 +48,7 @@ But `parent()` function cannot access any variable inside child function.
 Each function can access its outer function variable. The set of variable visible inside a funciton is determined by the place of that function in the **programing text**. And this is called **lexiczl scoping**.
 
 **NOTE :**
+
 > Javascript scoping is not defined by any block of code inside `{ } ` but it is defined by `function`.
 
 ``` javascript
