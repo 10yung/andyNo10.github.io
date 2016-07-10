@@ -41,6 +41,7 @@ console.log(parent());
 
 // result : _ _ 0000_ _ _ _ 0000000
 ```
+
 In this case we can see that `child1()` and `child2()` can access to `result` variable since they are inside `parent()` that define `result` variable.
 But `parent()` function cannot access any variable inside child function.
 
