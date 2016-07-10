@@ -16,6 +16,7 @@ layout: default
                     <h2 class="post-title">
                         <a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </h2>
+                    <h3 ><span class="post-category">{{ post.categories }}</span></h3>
                     <p class="post-content">
                         {{ post.content | strip_html | truncatewords:25}}
                     </p>

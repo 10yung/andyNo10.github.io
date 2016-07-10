@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Javascript - how to use javascript prototype chain"
+title:  "How to use javascript prototype chain"
 date:   2016-02-29 12:15:00 +0800
 categories: javascript
 ---

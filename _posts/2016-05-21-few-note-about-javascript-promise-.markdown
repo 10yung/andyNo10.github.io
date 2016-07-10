@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Javascript - Few notes about Promise"
+title:  "Few notes about Promise"
 date:   2016-05-21 12:30:00 +0800
 categories: javascript
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Javascript - hum, so this is javascript __proto__ right?"
+title:  "Hum, so this is javascript __proto__ right?"
 date:   2016-04-07 12:30:00 +0800
 categories: javascript
 ---

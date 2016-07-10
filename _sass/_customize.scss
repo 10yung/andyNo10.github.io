@@ -47,6 +47,14 @@
     color: rgba(0,0,0,.44);
 }
 
+.post-category {
+    font-size: $small-font-size;
+    color: rgba(0,0,0,.44);
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 30px;
+    padding: 1px 5px;
+}
+
 .post-title > a{
     font-weight: bold;
 }
