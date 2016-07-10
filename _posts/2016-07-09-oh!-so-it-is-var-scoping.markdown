@@ -8,6 +8,7 @@ javascript scoping is **lexical**. I can't totally understand that meaning until
 
 I understand that each function has it's own scope. The following show some code.
 ```javascript
+
 var parent = function(){
     var result ='';
 
@@ -40,7 +41,9 @@ var parent = function(){
 console.log(parent());
 
 // result : _ _ 0000_ _ _ _ 0000000
+
 ```
+
 
 In this case we can see that `child1()` and `child2()` can access to `result` variable since they are inside `parent()` that define `result` variable.
 But `parent()` function cannot access any variable inside child function.
