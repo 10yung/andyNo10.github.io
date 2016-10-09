@@ -170,4 +170,6 @@ for ( let locaion of locations ) {  //each location in locations array
 
 ```
 
+Here are some awesome features in ES6. I'll write more in PART2.
+
 [var scoping]: [http://andyno10.github.io/javascript/2016/07/09/oh!-so-it-is-var-scoping.html]
